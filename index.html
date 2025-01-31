@@ -286,6 +286,73 @@
 
     </section>
 
+    <section class="bmi-calc container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5">
+        <div class="mx-auto">
+            <h1 class=" text-3xl text-white font-inter font-bold mb-3 mt-16">
+                BMI Calculator Chart
+            </h1>
+
+            <table class="table border-collapse border border-gray-400 text-stone-600 text-base font-inter mb-16" >
+                <tr>
+                    <th class="border border-gray-600 text-lg font-bold text-white">BMI</th>
+                    <th class="border border-gray-600 text-lg font-bold text-white">Weight Status</th>
+                </tr>
+                <tr>
+                    <td class="border border-gray-600 ">Below 18.5</td>
+                    <td class="border border-gray-600 ">Underweight</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-600 ">18.5 - 24.9</td>
+                    <td class="border border-gray-600 ">Healthy</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-600 ">25.0 - 29.9</td>
+                    <td class="border border-gray-600 ">25.0 - 29.9</td>
+                </tr>
+                <tr>
+                    <td class="border border-gray-600 ">30.0 - and Above</td>
+                    <td class="border border-gray-600 ">Obese</td>
+                </tr>
+            </table>
+        </div>
+        <div class="mx-auto">
+            <h1 class=" text-3xl text-white font-inter font-bold mb-3 mt-16">
+                Calculate your BMI
+            </h1>
+            <p class="text-stone-500 xl:w-3/5 w-4/5 wrap mt-5 mb-4">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                gym. With hundreds of professional workouts.
+            </p>
+            <div class="grid grid-cols-2 gap-[10px] ">
+
+                <input type="text" placeholder="Height/cm" class="input input-bordered w-full max-w-xs bg-stone-600" />
+                <input type="text" placeholder="Weight/kg" class="input input-bordered w-full max-w-xs bg-stone-600" />
+
+                <input type="text" placeholder="Age" class="input input-bordered w-full max-w-xs bg-stone-600" />
+                <select class="select select-bordered w-full max-w-xs bg-stone-600 text-stone-400 text-base">
+                    <option disabled selected><S>Sex</S></option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+
+                <select class="col-span-2 select select-bordered w-2xl xl:w-[700px] bg-stone-600 text-stone-400 text-base ">
+                    <option disabled selected><S>Select an activity factor</S></option>
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>
+
+                <div class="banner-btn font-inter font-bold place-content-center mt-5 mb-12" style="background-color:#E6533C;">
+                    Calculate
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </section>
+
 
 </body>
 <footer class="bg-[#222222]">
