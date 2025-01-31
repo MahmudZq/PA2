@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .font-inter {
+            font-family: "Inter", serif;
+        }
+    </style>
+    <title>Fitness Point</title>
+</head>
+
+<body bgcolor="#111111">
+    <header class="container flex flex-row flex-between mt-5 px-5 mx-auto justify-between">
+            <div class="navbar-start my-auto">
+                <a class="font-inter font-extrabold italic text-[#E6533C] text-3xl ">Fitness</a>
+            </div>
+            <div id="border-white" class="nav-primary-btn hidden lg:flex">
+                <div class="nav-btn-home">
+                    <a>Home</a>
+                </div>
+                <div class="nav-btn">
+                    <a >Service</a>
+                </div>
+                <div class="nav-btn">
+                    <a >Contact</a>
+                </div>
+                <div class="nav-btn">
+                    <a >About</a>
+                </div>
+            </div>
+            <div class="lg:hidden">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 -ml-20 w-fit p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Service</a></li>
+                        <li><a>Contact</a></li>
+                        <li><a>About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+<section id="banner" class="container banner justify-between pb-20">
+    <div class="banner-data">
+
+        <h1 class="font-bold text-8xl text-white">
+            Get body in <span class="windsong-medium" >shape</span> & stay healthy
+        </h1>
+        <p class="text-stone-500 w-4/5 text-xl">
+            A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
+        </p>
+
+        <div class="flex flex-col gap-5 lg:flex-row">
+
+            <div class="banner-btn place-content-center" style="background-color:#E6533C;">
+                Join Club Now!
+            </div>
+            <div class="banner-btn place-content-center" id="border-white">
+                Download App
+            </div>
+    
+        </div>
+
+    </div>
+    <div class="banner-photo" style="position:relative">
+
+        <img src="./images/Images 2.png" alt="">
+
+        <div class="banner-card-1 mx-auto">
+            <h1 class="text-5xl font-bold text-stone-200">500+</h1>
+            <p class="text-stone-400">Free Workout Videos</p>
+        </div>
+        <div class="banner-card-2 mx-auto">
+            <div class="flex flex-row gap-5">
+                <div class="circle flex my-auto my-auto"></div>
+                <div class="flex flex-col">
+            <h1 class="text-5xl font-bold text-stone-200">350+</h1>
+            <p class="text-stone-400">Video Tutorial</p>
+        </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+<section id="habit" class="bg-[#050505] mb-20">
+    <div class="container mx-auto">
+        <h1 class="text-center text-white font-bold text-5xl mx-auto mt-5 pb-3">
+            Change Your Habits
+        </h1>
+    </div>
+    <hr class="w-full h-[2px] bg-[#FF533C] my-0 py-0 border-0">
+    <div class="container mx-auto">
+        <p class="text-center text-base text-stone-600 xl:w-2/5 lg:1/2 md:3/5 w-4/5 pt-2 mx-auto wrap">
+            We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+        </p>
+    </div>
+    <div class="mt-20 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+
+                            <div class="habit-card mx-auto mb-4">
+                                    <div class="habit-card-img-border"></div>
+                                    <img src="./images/image-3.png"  class="" alt="">
+                                    <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Movement</h1>
+                                    <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                                            We believe fitness should be accessible to everyone
+                                    </p>
+
+                            </div>
+                            <div class="habit-card mx-auto mb-4">
+                                    <div class="habit-card-img-border"></div>
+                                    <img src="./images/image-2.png"  class="" alt="">
+                                    <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Time</h1>
+                                    <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                                            We believe fitness should be accessible to everyone
+                                    </p>
+
+                            </div>
+                            <div class="habit-card mx-auto mb-4">
+                                    <div class="habit-card-img-border"></div>
+                                    <img src="./images/image-4.png"  class="" alt="">
+                                    <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Practice</h1>
+                                    <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                                            We believe fitness should be accessible to everyone
+                                    </p>
+
+                            </div>
+                            <div class="habit-card mx-auto mb-4">
+                                    <div class="habit-card-img-border"></div>
+                                    <img src="./images/image-3.png"  class="" alt="">
+                                    <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Weight Loss</h1>
+                                    <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                                            We believe fitness should be accessible to everyone
+                                    </p>
+
+                            </div>
+
+        </div>
+</section>
+
+<section id="habit" class="mt-20 bg-[#050505] mb-20">
+
+    <div class="container rounded-xl mx-auto bg-[#222222] flex flex-col lg:flex-row" >
+        <div class="p-20 space-y-5">
+            <h1 class="text-5xl font-bold text-white">Run an Extra<br>
+                Mile Easily</h1>
+            <p class="text-stone-500 xl:w-3/5 w-4/5 wrap">
+                We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.
+            </p>
+            <div class="banner-btn place-content-center text-xl" style="background-color:#E6533C;">
+                Join Now
+            </div>
+
+        </div>
+        <div>
+
+            <img src="./images/run.jpg" class="rounded-xl shadow-xl" alt="">
+        </div>
+
+
+
+    </div>
+
+
+</section>
+
+<section id="habit" class="bg-[#050505] mb-20">
+    <div class="container mx-auto">
+        <h1 class="text-center text-white font-bold text-5xl mx-auto mt-5 pb-3">
+            Meet Our Team
+        </h1>
+    </div>
+    <hr class="w-full h-[2px] bg-[#FF533C] my-0 py-0 border-0">
+    <div class="container mx-auto">
+        <p class="text-center text-base text-stone-600 xl:w-2/5 lg:1/2 md:3/5 w-4/5 pt-2 mx-auto wrap">
+            We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+        </p>
+    </div>
+    <div class="mt-20 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+
+                            <div class="team-card mx-auto mb-4">
+                                    <div class="team-card-img-border"></div>
+                                    <img src="./images/image-3.png"  class="" alt="">
+                                    <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Movement</h1>
+                                    <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                                            We believe fitness should be accessible to everyone
+                                    </p>
+
+                            </div>
+                            <div class="habit-card mx-auto mb-4">
+                                    <div class="habit-card-img-border"></div>
+                                    <img src="./images/image-2.png"  class="" alt="">
+                                    <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Time</h1>
+                                    <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                                            We believe fitness should be accessible to everyone
+                                    </p>
+
+                            </div>
+                            <div class="habit-card mx-auto mb-4">
+                                    <div class="habit-card-img-border"></div>
+                                    <img src="./images/image-4.png"  class="" alt="">
+                                    <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Practice</h1>
+                                    <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                                            We believe fitness should be accessible to everyone
+                                    </p>
+
+                            </div>
+                            <div class="habit-card mx-auto mb-4">
+                                    <div class="habit-card-img-border"></div>
+                                    <img src="./images/image-3.png"  class="" alt="">
+                                    <h1 class="text-center text-white font-bold text-2xl mx-auto pt-48">Weight Loss</h1>
+                                    <p class="text-center text-base text-stone-600 w-4/5 pt-1 mx-auto wrap">
+                                            We believe fitness should be accessible to everyone
+                                    </p>
+
+                            </div>
+
+        </div>
+</section>
+
+
+</section>
+
+
+</body>
+
+</html>
